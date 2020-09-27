@@ -1,42 +1,56 @@
 /* Give your page a fun background color */
 body{
   background-color: beige;
-  margin-left: 2%;
-  margin-right: 2%;
+  font-size: 1vmax;
+  height: 100%;
 }
 /* Make the header and footer a different color from the background */
-/* Align the h1 containing your name in the center of the header*/
-
 header{
-  color: white;
-  background-color: blue;
-  text-align: center;
-  padding: 5%;
-  margin-bottom: 2%
+background-color: lightskyblue;
+padding: 1%;
+margin-bottom:2%;
+position: relative;
+margin-top: 0;
 }
+
 footer{
-  color: white;
-  background-color: blue;
+background-color: lightskyblue;
+padding: 1%;
+margin-top: 2%;
+text-align: center;
+margin-bottom: 0px;
+left: 0px;
+right: 0px;
+position: absolute;
+bottom: 0px;
+
+
+}
+/* Align the h1 containing your name in the center of the header*/
+h1{
   text-align: center;
-  padding: 5%;
-  margin-top: 2%;
+  margin-top: 0;
 }
-.nomargin{
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
 /* Make your p tag a different color and italic */
-
+p{
+  font-style: italic;
+  max-width: 55%;
+  margin: 0 auto;
+}
 /* Put a border around your image */
-img{
-  border: blue 3px solid;
+.ruby{
+  border: lightskyblue 3px solid;
   width: 20%;
   height: 20%;
-  margin: auto;
-}
-.nopadding{
-  padding: 0 !important;
-  margin: 0 !important;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 /* Change the font-family of your list */
+h2{
+  text-align: center;
+}
+ul{
+  display: table;
+  margin: 0 auto;
+}
