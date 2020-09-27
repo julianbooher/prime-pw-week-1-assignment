@@ -1,6 +1,6 @@
 /* Give your page a fun background color */
 body{
-  background-color: beige;
+  background-color: beige !important;
   font-size: 1vmax;
   height: 100%;
 }
@@ -45,6 +45,7 @@ p{
   margin-right: auto;
   margin-left: auto;
   display: block;
+  margin-bottom: 2%;
 }
 /* Change the font-family of your list */
 h2{
