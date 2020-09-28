@@ -16,13 +16,13 @@ mkdir
 If empty, nothing, if it contains files, the output will be a list of the filenames.
 
 # 6 - What is a quick way to create a new file?
-touch
+touch *insert filename*
 
 # 7 - Run 'git --version' in your terminal. What is the output?
 git version 2.28.0
 
 # 8 - Why would you run the command 'git status'?
-In order to check what files you've been working on have been changed.
+In order to check what files you've been working on have been changed, and then to ensure that you've added files to be committed.
 
 # 9 - What does the command 'git add .' do?
 It adds everything in your current working directory to eventually be committed.

@@ -1,40 +1,39 @@
-/* Give your page a fun background color */
 body{
+  /* Give your page a fun background color */
   background-color: beige !important;
   font-size: 1vmax;
   height: 100%;
 }
-/* Make the header and footer a different color from the background */
 header{
-background-color: lightskyblue;
-padding: 1%;
-margin-bottom:2%;
-position: relative;
-margin-top: 0;
+  /* Make the header and footer a different color from the background */
+  background-color: lightskyblue;
+  padding: 1%;
+  margin-bottom:2%;
+  position: relative;
+  margin-top: 0;
 }
-
 footer{
-background-color: lightskyblue;
-padding: 1%;
-margin-top: 2%;
-text-align: center;
-margin-bottom: 0px;
-left: 0px;
-right: 0px;
-position: absolute;
-bottom: 0px;
-
-
+  /* Make the header and footer a different color from the background */
+  background-color: lightskyblue;
+  padding: 1%;
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
 }
-/* Align the h1 containing your name in the center of the header*/
 h1{
+  /* Align the h1 containing your name in the center of the header*/
   text-align: center;
   margin-top: 0;
 }
-/* Make your p tag a different color and italic */
 p{
+  /* Make your p tag a different color and italic */
   font-style: italic;
-  max-width: 55%;
+  color: dimgray;
+  max-width: 65%;
   margin: 0 auto;
 }
 /* Put a border around your image */
@@ -47,11 +46,46 @@ p{
   display: block;
   margin-bottom: 2%;
 }
-/* Change the font-family of your list */
 h2{
   text-align: center;
 }
 ul{
+  /* Change the font-family of your list */
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   display: table;
   margin: 0 auto;
+}
+/* Messing around with mobile optimization */
+@media only screen and (max-width: 800px){
+  p{
+    font-size: 80%;
+    max-width: 90%;
+  }
+  .ruby{
+    width: 50%;
+    height: 50%;
+  }
+}
+@media only screen and (max-width: 600px){
+  p{
+    font-size: 80%;
+    max-width: 90%;
+  }
+  .ruby{
+    width: 50%;
+    height: 50%;
+  }
+}
+@media only screen and (max-width: 400px){
+  p{
+    font-size: 80% !important;
+    max-width: 90% !important;
+  }
+  .ruby{
+    width: 40%;
+    height: 40%;
+  }
+  body{
+    font-size: 75% !important;
+  }
 }
